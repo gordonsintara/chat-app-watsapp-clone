@@ -23,20 +23,20 @@
                     <div class="name-details">
                         <div class="field input">
                             <label>First Name</label>
-                            <input type="text" placeholder="first name">
+                            <input type="text" name="fname" placeholder="first name" required>
                         </div>
                         <div class="field input">
                             <label>Surname</label>
-                            <input type="text" placeholder="surname">
+                            <input type="text" name="surname" placeholder="surname" required>
                         </div>
                     </div>
                         <div class="field input">
                             <label>Email</label>
-                            <input type="text" placeholder="email">
+                            <input type="text" name="email" placeholder="email" required>
                         </div>
                         <div class="field input">
                             <label>Password</label>
-                            <input type="text" placeholder="password">
+                            <input type="password" name="password" placeholder="password" required>
                         </div>
                         <div class="field button">
                             <input type="submit" value="Submit">
@@ -49,6 +49,7 @@
         </div>    
 
 
-        <script src="" async defer></script>
+        <script src="js/password-display.js" async defer></script>
+        <script src="js/signup.js" async defer></script>
     </body>
 </html>

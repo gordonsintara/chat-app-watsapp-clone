@@ -112,6 +112,6 @@
         </div>    
 
 
-        <script src="" async defer></script>
+        <script src="js/users.js" async defer></script>
     </body>
 </html> 
