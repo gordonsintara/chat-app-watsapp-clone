@@ -7,7 +7,7 @@
     $password = mysqli_real_escape_string($conn, $_POST['password']);
 
 
-    if(!empty($name) && !empty($last_name) && !empty($email) && !empty($password)){
+    if(!empty($first_name) && !empty($last_name) && !empty($email) && !empty($password)){
         // is email valid?
         if(filter_var($email,FILTER_VALIDATE_EMAIL)){
             // is valid 
